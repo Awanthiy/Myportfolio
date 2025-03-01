@@ -1,5 +1,5 @@
 .porthfolio{
-    padding: 50px 0;
+    padding: 10px 0;
 
 }
  
@@ -10,6 +10,9 @@
         grid-gap:40px;
         margin-top: 50px;
         padding: 5%;
+}
+.work-list h2{
+    color: aquamarine;
 }
 
 .work{
@@ -71,6 +74,25 @@
     font-size: 20px;
     margin-left: 60px;
  }
+ .work-list ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .work-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  .work-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: #005d85; /* Example link color */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+  }
+  
+  .work-list a:hover {
+    color: #abacad; /* Example hover color */
+  }
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {

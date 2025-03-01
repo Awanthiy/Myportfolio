@@ -14,10 +14,10 @@ const Services = () => {
             <h2>UI Design</h2>
             <br />
             <p>
-              I am doing UI designing using Figma. Here are some app and
-              website designs I created using Figma.
+            Check out my latest UI designs on Behance!  I've been exploring various concepts 
+            See the full projects.
             </p>
-            <a href="#porthfolio">See more</a>
+            <a href="https://www.behance.net/awym">Go to Behance</a>
           </div>
           <div>
             <i className="fa-solid fa-code"></i>
@@ -25,7 +25,7 @@ const Services = () => {
             <h2>Web-Development</h2>
             <br />
             <p>
-              I create websites using HTML, CSS, and JavaScript.
+              I am creating websites using MERN Development.
             </p>
             <a href="#porthfolio">See more</a>
           </div>
