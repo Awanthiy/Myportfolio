@@ -67,6 +67,23 @@ body, html {
     min-height: 100vh; /* Ensure content covers full height */
 }
 
+.social-icon {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .social-icon a {
+    color: #a8b2d1;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon a:hover {
+    color: #64ffda;
+  }
+  
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .sidebar {

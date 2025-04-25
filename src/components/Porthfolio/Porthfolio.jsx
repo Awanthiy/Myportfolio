@@ -1,14 +1,4 @@
 import React from 'react';
-import a from '../../assets/a.png';
-import b from '../../assets/b.png';
-import c from '../../assets/c.png';
-import d from '../../assets/d.png';
-import e from '../../assets/e.png';
-import f from '../../assets/f.png';
-import wa from '../../assets/wa.png';
-import h from '../../assets/h.png';
-// import wa from '../../assets/wa.png';
-// import image from '../../assets/image.png';
 import './Porthfolio.css';
 
 const Portfolio = () => {
@@ -20,47 +10,80 @@ const Portfolio = () => {
         <h2 className="sub-title2">Web Development</h2>
         <div className="work-list">
           <div className="work">
-            <img src={wa} alt="Music App" />
-            <div className="layer">
-              <h3>My Portfolio Website</h3><p>I Developed this website using React.</p>
-              <a href="https://awanthiy.github.io/Myportfolio/" target="_blank" rel="noopener noreferrer">
-                Click to visit
-              </a>
-            </div>
+            <h4>My Portfolio Website</h4>
+            <p>I developed this website using React.</p>
+            <a href="https://github.com/Awanthiy/Myportfolio" target="_blank" rel="noopener noreferrer">
+              Check here
+            </a>
           </div>
           <div className="work">
-            <img src={h} alt="AI Photo Generator" />
-            <div className="layer">
-              <h3>Pet Care Website</h3><p>I Developed This website using MERN development.Mongo DB,Express JS ,React and Node JS.</p>
-              <a href="https://github.com/Awanthiy/PetCareCenter-MERN" target="_blank" rel="noopener noreferrer">
-                Click to visit
-              </a>
-            </div>
+            <h4>Pet Care Website</h4>
+            <p>This website was developed using the MERN stack: MongoDB, Express.js, React, and Node.js.</p>
+            <a href="https://github.com/Awanthiy/PetCareCenter-React" target="_blank" rel="noopener noreferrer">
+              Check here
+            </a>
           </div>
           <div className="work">
-            <img src={a} alt="Webtoon App" />
-            <div className="layer">
-              <h3>Simple GYM website</h3><p>This website also developed using MERN Developmebt</p>
-              <a href="https://github.com/Awanthiy/GYM-Website-MERN" target="_blank" rel="noopener noreferrer">
-                Click to visit
-              </a>
-            </div>
+            <h4>Simple GYM Website</h4>
+            <p>This is a basic GYM website built using MERN stack technologies.</p>
+            <a href="https://github.com/Awanthiy/GYM-Website-MERN" target="_blank" rel="noopener noreferrer">
+              Check here
+            </a>
           </div>
         </div>
 
         <h2 className="sub-title2">UI Designs</h2>
         <div className="work-list">
-          <h2><ul>
-            <li><a href="https://www.behance.net/gallery/220424951/ToonWeb-A-Modern-Webtoon-Watch-App-UI-">Webtoon app design</a></li>
-            <li><a href="https://www.behance.net/gallery/220425907/Miraculous-Dash-A-Mobile-Game-UI-">Kids Game design - Lady Bug Running game</a></li>
-            <li><a href="https://www.behance.net/gallery/220377093/OrderUp-Online-Food-Ordering-App-UI-Design">Onlinefood order app</a></li>
-            <li><a href="https://www.behance.net/awym">Gihibi Movie Doenload website</a></li>
-            <li><a href="https://www.behance.net/awym">Anime movie download App Design</a></li>
-            <li><a href="https://www.behance.net/awym">AI Image Genarator App Design</a></li>
-            <li><a href="https://www.behance.net/awym">Online Book Order WEbsite Design</a></li>
-            <li><a href="https://www.behance.net/awym">Genshin Impact Game Website for Beginers</a></li>
-            
-            </ul></h2>
+          <ul>
+            <li>
+              <h4>Webtoon App Design</h4>
+              <a href="https://www.behance.net/gallery/220424951/ToonWeb-A-Modern-Webtoon-Watch-App-UI-" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Kids Game Design - Lady Bug Running Game</h4>
+              <a href="https://www.behance.net/gallery/220425907/Miraculous-Dash-A-Mobile-Game-UI-" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Online Food Order App</h4>
+              <a href="https://www.behance.net/gallery/220377093/OrderUp-Online-Food-Ordering-App-UI-Design" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Ghibli Movie Download Website</h4>
+              <a href="https://www.behance.net/awym" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Anime Movie Download App Design</h4>
+              <a href="https://www.behance.net/awym" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>AI Image Generator App Design</h4>
+              <a href="https://www.behance.net/awym" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Online Book Order Website Design</h4>
+              <a href="https://www.behance.net/awym" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+            <li>
+              <h4>Genshin Impact Game Website for Beginners</h4>
+              <a href="https://www.behance.net/awym" target="_blank" rel="noopener noreferrer">
+                Check here
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

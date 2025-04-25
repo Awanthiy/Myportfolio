@@ -1,180 +1,129 @@
-.porthfolio{
-    padding: 10px 0;
-
-}
+#porthfolio {
+    background-color: #00081f;
+    padding: 60px 5%;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 2000px;
  
-.work-list{
-     
-        display:grid;
-        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-        grid-gap:40px;
-        margin-top: 50px;
-        padding: 5%;
-}
-.work-list h2{
-    color: aquamarine;
-}
-
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    }
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-    height: 380px;
-    }
-
-
-.layer{
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),rgb(80, 176, 176));
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    transition: height 0.5s;
-}
-
-.layer h3{
-    color: aliceblue;
+  }
+  
+  .sub-title {
+    font-size: 3rem;
     margin-bottom: 20px;
-    font-size: 30px;
-    margin-right: 70px;
-    }
-
-.layer p{
-        color: aliceblue;
-        margin-bottom: 10px;
-        font-size: 15px;
-        margin-right: 70px;
-}
-
-.work:hover img{
-    transform: scale(1.1);
- }
-
- .work:hover .layer{
-    height: 100%;
- }
-
- .sub-title2 {
-    color: aliceblue;
-    font-size: 20px;
-    margin-left: 60px;
- }
- .work-list ul {
-    list-style: none; /* Remove default bullet points */
-    padding: 0; /* Remove default padding */
+    color: #00bcd4;
+    text-align: left;
+  }
+  
+  .sub-title2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #00acc1;
+  }
+  
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .work {
+    background-color: #001840;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 30%;
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .work:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 188, 212, 0.3);
+  }
+  
+  .work h4 {
+    font-size: 1.4rem;
+    color: #00e5ff;
+    margin-bottom: 10px;
+  }
+  
+  .work p {
+    color: #ababab;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .work a {
+    text-decoration: none;
+    color: #ababab;
+    background: #02444f;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .work a:hover {
+    background: rgb(95, 155, 155);
+    color: #000;
+  }
+  
+  .work-list ul {
+    list-style: none;
+    padding: 0;
   }
   
   .work-list li {
-    margin-bottom: 10px; /* Add spacing between list items */
+    margin-bottom: 20px;
+    background-color: #001840;
+    padding: 20px;
+    border-radius: 10px;
   }
   
-  .work-list a {
-    text-decoration: none; /* Remove underline from links */
-    color: #005d85; /* Example link color */
-    font-weight: bold; /* Make links bold */
-    transition: color 0.3s ease; /* Add a smooth color transition */
+  .work-list li h4 {
+    font-size: 1.3rem;
+    color: #00e5ff;
+    margin-bottom: 8px;
   }
   
-  .work-list a:hover {
-    color: #abacad; /* Example hover color */
+  .work-list li a {
+    text-decoration: none;
+    color: #ababab;
+    background: #02444f;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
   }
-
-/* Mobile Responsiveness */
-@media screen and (max-width: 768px) {
-    .porthfolio {
-        padding: 30px 0;
-    }
-
+  
+  .work-list li a:hover {
+    background: rgb(95, 155, 155);
+    color: #000;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
     .work-list {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 30px;
-        padding: 5%;
+      flex-direction: column;
     }
-
-    .work img {
-        height: 300px; /* Reduced image height */
+  
+    .sub-title {
+      font-size: 2.5rem;
     }
-
-    .layer h3 {
-        font-size: 24px;
-        margin-right: 0;
-    }
-
-    .layer p {
-        font-size: 13px;
-        margin-right: 0;
-    }
-
-    .layer a {
-        font-size: 16px;
-        line-height: 50px;
-        width: 50px;
-        height: 50px;
-    }
-
+  
     .sub-title2 {
-        font-size: 18px;
-        margin-left: 30px;
+      font-size: 1.6rem;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .porthfolio {
-        padding: 20px 0;
+  
+    .work h4,
+    .work-list li h4 {
+      font-size: 1.2rem;
     }
-
-    .work-list {
-        grid-template-columns: 1fr; /* Single-column layout */
-        grid-gap: 20px;
-        padding: 5%;
+  
+    .work p {
+      font-size: 0.95rem;
     }
-
-    .work img {
-        height: 250px; /* Further reduced image height */
-    }
-
-    .layer h3 {
-        font-size: 20px;
-    }
-
-    .layer p {
-        font-size: 12px;
-    }
-
-    .layer a {
-        color: #fff; /* White text for the link */
-        text-decoration: none; /* Removes underline */
-        font-size: 18px;
-        font-weight: bold; /* Makes the text bold */
-        background-color: #0078d4; /* Optional background color */
-        padding: 10px 20px; /* Padding for better appearance */
-        border-radius: 5px; /* Rounded corners */
-        display: inline-block; /* Makes it behave like a button */
-        transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
-    }
-    
-    .layer a:hover {
-        background-color: #0053a3; /* Darker blue on hover */
-        transform: scale(1.05); /* Slight zoom effect on hover */
-    }
-
-    .sub-title2 {
-        font-size: 16px;
-        margin-left: 20px;
-    }
-}
+  }
+  
