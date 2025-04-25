@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #001840;
+  }
+  
+  .social-icon a {
+    color: #ababab;
+    font-size: 2rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .social-icon a:hover {
+    color: #00bcd4;
+    transform: translateY(-4px);
+  }
+  
+  .social-icon a:focus {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social-icon {
+      padding: 15px;
+    }
+  
+    .social-icon a {
+      font-size: 1.5rem;
+    }
+  }
+  
