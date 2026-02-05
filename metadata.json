@@ -1,0 +1,8 @@
+{
+  "name": "Awanti Malawanage Portfolio",
+  "description": "Professional portfolio for Awanti Malawanage - UI/UX Designer & Full-Stack Developer from Sri Lanka, undergraduate at NSBM Green University.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
